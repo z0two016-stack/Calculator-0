@@ -89,12 +89,12 @@ export default function Home() {
             {buttons.map((btn) => {
               let className = ""
 
-              if (btn === '=') { className = " row-span-2 bg-[#f5ddc5] text-[#475c6c] p-3 sm:p-4 text-lg sm:text-xl font-bold rounded-lg shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105" }
-              else if (btn === '+') { className = " row-span-2 bg-[#c2bcff] text-[#515cb9] p-3 sm:p-4 text-lg sm:text-xl font-bold rounded-lg shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105" }
-              else if (btn === '0') { className = " col-span-2 bg-[#c2bcff] text-[#515cb9] p-3 sm:p-4 text-lg sm:text-xl font-bold rounded-lg shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105" }
-              else if (btn === 'c') { className = " bg-red-400 text-white p-3 sm:p-4 text-lg sm:text-xl font-bold rounded-lg shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105" }
+              if (btn === '=') { className = " row-span-2 bg-[#f5ddc5] text-[#475c6c] p-4 sm:p-4 text-xl sm:text-xl font-bold rounded-lg shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105" }
+              else if (btn === '+') { className = " row-span-2 bg-[#c2bcff] text-[#515cb9] p-4 sm:p-4 text-xl sm:text-xl font-bold rounded-lg shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105" }
+              else if (btn === '0') { className = " col-span-2 bg-[#c2bcff] text-[#515cb9] p-4 sm:p-4 text-xl sm:text-xl font-bold rounded-lg shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105" }
+              else if (btn === 'c') { className = " bg-red-400 text-white p-4 sm:p-4 text-xl sm:text-xl font-bold rounded-lg shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105" }
               else{
-                className = "p-3 sm:p-4 text-lg sm:text-xl font-bold rounded-lg bg-gray-50 text-gray-600 shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105"
+                className = "p-4 sm:p-4 text-xl sm:text-xl font-bold rounded-lg bg-gray-50 text-gray-600 shadow-lg transition-all duration-150 active:scale-95 active:shadow-md hover:scale-105"
               }
 
               return (
